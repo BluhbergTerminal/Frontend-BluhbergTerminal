@@ -1,14 +1,10 @@
 import "./styles.css";
 import { useRoutes } from "hookrouter";
-import HomePage from "./sites/HomePage";
 import NotFoundPage from "./sites/NotFoundPage";
 import Navbar from "./components/Navbar";
 import "antd/dist/antd.css";
 import { Layout } from "antd";
-
-const routes = {
-  "/": () => <HomePage />
-};
+import {routes} from "./routes"
 export default function App() {
   const routeResult = useRoutes(routes);
 
