@@ -15,14 +15,16 @@ export default function App() {
   return (
   <>
   <Layout>
-      <Layout.Header>
+      <Layout.Header >
   <Navbar/>
       </Layout.Header>
-      <Layout.Content>
+        <Layout.Content style={{ height: "100vh", margin: "10vh" }}>
   {routeResult || <NotFoundPage />}
   </Layout.Content>
   <Layout.Footer>
+    weNn hIeR BuGs sinD biTte bei noha kamera melden
     </Layout.Footer>
+
         </Layout>
       </>)
 }
