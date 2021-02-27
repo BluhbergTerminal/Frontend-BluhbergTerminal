@@ -8,7 +8,7 @@ export default function Navbar() {
     <>
       <Layout.Header>
         <Menu>
-          <Menu.Item key="1" onClick={() => navigate("/test")}>
+          <Menu.Item key="1" onClick={() => navigate("/")}>
             Test
           </Menu.Item>
         </Menu>

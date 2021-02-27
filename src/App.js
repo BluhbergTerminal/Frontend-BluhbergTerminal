@@ -2,6 +2,7 @@ import "./styles.css";
 import { useRoutes } from "hookrouter";
 import HomePage from "./sites/HomePage";
 import NotFoundPage from "./sites/NotFoundPage";
+import Navbar from "./components/Navbar";
 
 const routes = {
   "/": () => <HomePage />
@@ -9,5 +10,9 @@ const routes = {
 export default function App() {
   const routeResult = useRoutes(routes);
 
-  return routeResult || <NotFoundPage />;
+  return (
+  <>
+  <Navbar/>
+  {routeResult || <NotFoundPage />}
+      </>)
 }
