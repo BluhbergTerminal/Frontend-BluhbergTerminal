@@ -4,7 +4,7 @@ import { A } from "hookrouter";
 export default function Navbar() {
   return (
     <>
-        <Menu>
+        <Menu theme="dark" mode="horizontal">
           <Menu.Item key="1" >
             <A href="/">Test</A>
           </Menu.Item>
