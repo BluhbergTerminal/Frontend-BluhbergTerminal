@@ -1,2 +1,11 @@
 # Frontend-BluhbergTerminal
-Created with CodeSandbox
+
+npm install
+
+zum installieren
+
+npm start
+
+zum starten
+
+ezpz
